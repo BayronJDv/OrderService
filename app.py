@@ -175,6 +175,7 @@ def list_orders():
             status,
             total_price,
             created_at,
+            shipping_address,
             order_items (
                 id,
                 product_id,
